@@ -1,0 +1,53 @@
+{% extends 'core/base.html' %}
+
+{% load static %}
+
+{% block title %}Visítanos{% endblock %}
+
+{% block content %}
+<section class="page-section cta">
+  <div class="container">
+    <div class="row">
+      <div class="col-xl-9 mx-auto">
+        <div class="cta-inner text-center rounded">
+          <h2 class="section-heading mb-5">
+            <span class="section-heading-upper">Te esperamos</span>
+            <span class="section-heading-lower">Visítanos</span>
+          </h2>
+          <ul class="list-unstyled list-hours mb-5 text-left mx-auto">
+            <li class="list-unstyled-item list-hours-item d-flex">
+              Lunes a viernes
+              <span class="ml-auto">7:00 a 20:00</span>
+            </li>
+            <li class="list-unstyled-item list-hours-item d-flex">
+              Sábados
+              <span class="ml-auto">8:00 a 17:00</span>
+            </li>
+            <li class="list-unstyled-item list-hours-item d-flex">
+              Domingos
+              <span class="ml-auto">Cerrado</span>
+            </li>
+          </ul>
+          <p class="address mb-5">
+            <em>
+              <strong>Nos encontramos en el Open Plaza</strong>
+              <br>
+              Yerba Buena, Tucumán
+            </em>
+          </p>
+          <p class="mb-0">
+            <small>
+              <em>Llámanos y pregunta</em>
+            </small>
+            <br>
+            (315) 585-8468
+          </p>
+          <br>
+          <br>
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d864.952795429222!2d-65.2906822477292!3d-26.801748926443917!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x942242cdb798b187%3A0x3c0e33052f5b61a3!2sShopping+Open+Plaza!5e0!3m2!1ses!2sar!4v1553009300345" class="border border-warning" width="550" height="400" frameborder="0" style="border:0" allowfullscreen></iframe>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+{% endblock %}
